@@ -46,7 +46,7 @@ grid_str = """
 01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48
 """
 
-linhas = grid_str.strip().split('\\n')
+linhas = grid_str.strip().split('\n')
 grid = [[int(num) for num in linha.split()] for linha in linhas]
 
 maior_produto = 0
@@ -80,6 +80,9 @@ for i in range(LINHAS - ADJACENTES + 1):
 
 print(maior_produto)
 
-#Se você me acompanha diariamente e vê meus códigos, peço desculpas por demorar nesse. Costumo passar de 10 a 30 minutos por dia tentando resolver esses
+# Se você me acompanha diariamente e vê meus códigos, peço desculpas por demorar nesse. Costumo passar de 10 a 30 minutos por dia tentando resolver esses
 # problemas, e acabei me enrolando nesse (na verdade foi difícil pra mim mesmo), e creio que a partir de agora alguns desafios vão ficar mais difíceis 
 # ao ponto em que não consiguirei postar uma nova resolução cada dia. Mas continuarei tentando resolver diariamente! Abraço, Ast.
+
+# Ps. to pensando em largar o Python e migrar o código pra Java (minha linguagem main)... o que acham? Quero aplicar alguns conceitos de Threading, talvez
+# IA, algumas funções recursivas (só pra treinar mesmo)
